@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+#editor {
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    border: 11.5px solid rgb(170, 97, 14);
+    padding: 1rem 4rem 2rem 4rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#options {
+    display: flex;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+}
+
+.option {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+    
+}
+
+.panelInput {
+    font-family: "Press Start 2P";
+    font-weight: 400;
+    height: 1rem;
+    width: 3.5rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(228, 135, 30);
+    padding: 1rem 3.5rem 2rem 4rem;
+    border: 9px solid rgb(156, 93, 20);
+    margin-top: 0.2rem;
+}
+
+.headerTwo {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: -1rem;
+    color: rgb(27, 206, 219);
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 2%,
+        #44107a 11%,
+        #ff1361 27%,
+        #fff800 39%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1s linear infinite;
+    display: inline-block;
+}
+
+.button {
+    margin-left: 1rem;
+    color: rgb(228, 0, 0);
+    border: 7px solid;
+    border-color: brown;
+    font-family: "Press Start 2P";
+    transition: background-color 0.2s ease-in-out;
+    text-transform: uppercase;
+    height: 2.6rem;
+}
